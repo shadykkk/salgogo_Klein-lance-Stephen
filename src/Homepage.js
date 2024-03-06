@@ -33,7 +33,7 @@ function Homepage() {
         </div>
         <NavbarContainer isNavbarCollapsed={isNavbarCollapsed}>
           <NavbarList className="navbar-links">
-            <NavbarListItem>HOME</NavbarListItem>
+            <NavbarListItem>HOMEbea</NavbarListItem>
             <NavbarListItem>SUBSCRIPTION</NavbarListItem>
             <NavbarListItem>EXERCISES</NavbarListItem>
             <NavbarListItem>FITNESS TRACKER</NavbarListItem>
