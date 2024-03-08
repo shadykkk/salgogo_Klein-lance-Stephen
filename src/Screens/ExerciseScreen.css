@@ -1,0 +1,81 @@
+/* App.css */
+.workout-homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+    background-image: url('../images/carbon.jpg');
+    background-size: 90%;
+        background-position: center;
+      
+  }
+  
+  .main-content {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .hero-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .plan-card {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .plan-name {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .plan-description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .plan-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .plan-button:hover {
+    background-color: #d32f2f;
+  }
+  

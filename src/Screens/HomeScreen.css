@@ -1,0 +1,57 @@
+    .home-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+        height: 750px;
+    }
+    
+    .subscription-box {
+        flex: 1;
+        padding: 50px;
+        text-align: center;
+        border-radius: 100px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        margin: 0 50px; /* Add margin to separate the boxes */
+    }
+    
+    .free-box {
+        flex: 1; /* Allow the box to grow and shrink */
+        background-color: #ccc; /* Grey color */
+        padding: 20px; /* Add padding for spacing */
+        text-align: center; /* Center align text */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+    }
+    
+    .elite-box {
+        flex: 1; /* Allow the box to grow and shrink */
+        background-color: darkgreen; /* Dark green color */
+        padding: 20px; /* Add padding for spacing */
+        text-align: center; /* Center align text */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+    }
+    
+    
+    .subscription-box h2 {
+        margin-bottom: 10px;
+    }
+    
+    .subscription-box p {
+        margin-bottom: 20px;
+    }
+    
+    .subscription-box button {
+        padding: 10px 20px;
+        background-color: #007bff; /* Blue color for button */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 500px;
+    }
+    
+    .subscription-box button:hover {
+        background-color: #0056b3; /* Darker blue color on hover */
+    }
+    

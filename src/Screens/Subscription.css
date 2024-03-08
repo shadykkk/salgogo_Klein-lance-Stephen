@@ -1,0 +1,52 @@
+/* subscription.css */
+
+.subscription-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .subscription-list,
+  .saved-videos-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .subscription-item,
+  .saved-video-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .subscription-item img,
+  .saved-video-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .subscription-details,
+  .saved-video-details {
+    flex: 1;
+  }
+  
+  .subscription-details h3,
+  .saved-video-details h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .subscription-details p,
+  .saved-video-details p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+  }
+  
