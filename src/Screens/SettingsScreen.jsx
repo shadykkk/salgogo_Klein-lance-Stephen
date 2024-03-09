@@ -1,9 +1,12 @@
-import React from 'react'
-import './SettingsScreen.css'
+import React from 'react';
+import './SettingsScreen.css';
+
 const SettingsScreen = () => {
   return (
-    <div>lagay mo gusto mo</div>
-  )
-}
+    <div className="centered-text">
+      <p>in the works hehe</p>
+    </div>
+  );
+};
 
-export default SettingsScreen
+export default SettingsScreen;

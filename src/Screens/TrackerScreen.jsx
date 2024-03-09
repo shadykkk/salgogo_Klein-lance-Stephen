@@ -10,7 +10,7 @@ const TrackerScreen = () => {
 
     return (
         <div className="dashboard-container">
-            <h2>Dashboard(not doable, walang mock data na analytics for front end, kailangan google analytics(backend)</h2>
+            <h2>Dashboard(Wala pa po mahanap na mock data na analytics for front end. Kailangan ng google analytics(backend)</h2>
             <div className="metrics">
                 <div className="metric">
                     <h3>Daily Steps</h3>

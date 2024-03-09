@@ -10,7 +10,7 @@
     return (
       <Navbar expand="lg" className="navbar">
         <Container>
-          <div className='title' href="#home">WELCOME TO BARTMALL</div>
+          <div className='title' href="#home">FitFusion Elite</div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">

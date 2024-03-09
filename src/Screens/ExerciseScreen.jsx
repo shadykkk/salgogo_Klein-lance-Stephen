@@ -9,7 +9,7 @@ const ExerciseScreen = () => {
       </header>
       <main className="main-content">
         <section className="hero-section">
-          <h2 className="hero-title">Achieve Your Fitness Goals</h2>
+          <h2 className="glowing-text">Achieve Your Fitness Goals</h2>
           <p className="hero-text">Get fit, stay healthy, and reach your fitness goals with our expertly crafted workout plans.</p>
           <button className="cta-button">Start Now</button>
         </section>
